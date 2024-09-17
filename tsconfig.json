@@ -9,8 +9,9 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "cherry-ui": ["src"],
-      "cherry-ui/*": ["src/*", "*"]
+      "cherry-ui/*": ["src/*", "*"],
+      "use-hooks": ["hooks"]
     }
   },
-  "include": [".dumirc.ts", "src/**/*"]
+  "include": [".dumirc.ts", "src/**/*", "declaration.d.ts"]
 }
